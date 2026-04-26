@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lopes Barber — Especialista em cortes masculinos premium. Transformando estilo e autoestima há +3 anos. Rua Cassiano dos Santos, 255."
+    />
+    <title>Lopes Barber | Cortes Masculinos Premium</title>
+
+    <!-- Google Fonts: Oswald (display bold) + Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ========================== NAVBAR ========================== -->
+    <header class="navbar" id="navbar">
+      <div class="container navbar__inner">
+        <a href="#hero" class="navbar__logo">
+          <span class="logo-icon"><i class="fas fa-cut"></i></span>
+          <span class="logo-text">Lopes <strong>Barber</strong></span>
+        </a>
+
+        <nav class="navbar__nav" id="nav-menu" aria-label="Menu principal">
+          <ul class="nav-list">
+            <li><a href="#services" class="nav-link">Serviços</a></li>
+            <li><a href="#gallery" class="nav-link">Galeria</a></li>
+            <li><a href="#team" class="nav-link">Equipe</a></li>
+            <li><a href="#reviews" class="nav-link">Avaliações</a></li>
+            <li><a href="#location" class="nav-link">Localização</a></li>
+            <li>
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="btn btn--gold nav-cta">
+                Agendar
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="navbar__burger"
+          id="burger-btn"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ========================== HERO ========================== -->
+      <section class="hero" id="hero">
+        <div class="hero__bg-overlay"></div>
+
+        <div class="container hero__content">
+          <p class="hero__eyebrow reveal">@lopes.barberofc</p>
+          <h1 class="hero__title reveal">
+            LOPES<br /><em>BARBER</em>
+          </h1>
+          <p class="hero__subtitle reveal">
+            Especialista em cortes masculinos premium.<br />
+            Transformando estilo e autoestima há +3 anos.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="btn btn--gold btn--lg">
+              <i class="fab fa-whatsapp"></i> Agendar Agora
+            </a>
+            <a href="#gallery" class="btn btn--outline btn--lg">Ver Trabalhos</a>
+          </div>
+
+          <div class="hero__stats reveal">
+            <div class="stat">
+              <span class="stat__number" data-target="3">0</span>
+              <span class="stat__label">Anos de experiência</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="500">0</span>
+              <span class="stat__label">Clientes atendidos</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="286">0</span>
+              <span class="stat__label">Seguidores no Instagram</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="#services" class="hero__scroll-hint" aria-label="Rolar para baixo">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </section>
+
+      <!-- ========================== SERVIÇOS ========================== -->
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-eyebrow">O que fazemos</span>
+            <h2 class="section-title">Nossos <em>Serviços</em></h2>
+            <p class="section-desc">
+              Aqui trabalhamos com excelência. Do clássico ao contemporâneo.
+            </p>
+          </div>
+
+          <div class="services__grid">
+
+            <article class="service-card service-card--featured reveal">
+              <div class="service-card__badge">Mais Pedido</div>
+              <div class="service-card__icon">
+                <i class="fas fa-cut"></i>
+              </div>
+              <h3 class="service-card__title">Corte Masculino</h3>
+              <p class="service-card__desc">
+                Corte personalizado com tesoura e máquina — degradê, navalhado,
+                undercut ou clássico. Acabamento impecável.
+              </p>
+              <div class="service-card__price">
+                <span class="price__label">a partir de</span>
+                <span class="price__value">R$ 40</span>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__icon">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <h3 class="service-card__title">Corte + Barba</h3>
+              <p class="service-card__desc">
+                Combo completo: corte no estilo que você quiser mais barba
+                modelada com navalha e toalha quente.
+              </p>
+              <div class="service-card__price">
+                <span class="price__label">a partir de</span>
+                <span class="price__value">R$ 65</span>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__icon">
+                <i class="fas fa-spray-can"></i>
+              </div>
+              <h3 class="service-card__title">Barba</h3>
+              <p class="service-card__desc">
+                Modelagem e finalização de barba com produtos profissionais.
+                Delineado preciso, navalha quente.
+              </p>
+              <div class="service-card__price">
+                <span class="price__label">a partir de</span>
+                <span class="price__value">R$ 30</span>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h3 class="service-card__title">Coloração</h3>
+              <p class="service-card__desc">
+                Coloração criativa e técnica — mechas, luzes, full color.
+                Atendemos também clientes femininos.
+              </p>
+              <div class="service-card__price">
+                <span class="price__label">a partir de</span>
+                <span class="price__value">R$ 80</span>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__icon">
+                <i class="fas fa-fire"></i>
+              </div>
+              <h3 class="service-card__title">Pigmentação</h3>
+              <p class="service-card__desc">
+                Cobertura de falhas na barba e cabelo com pigmento profissional.
+                Resultado natural e duradouro.
+              </p>
+              <div class="service-card__price">
+                <span class="price__label">a partir de</span>
+                <span class="price__value">R$ 55</span>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__icon">
+                <i class="fas fa-circle-notch"></i>
+              </div>
+              <h3 class="service-card__title">Curly &amp; Cachos</h3>
+              <p class="service-card__desc">
+                Corte e tratamento especializado para cabelos cacheados e
+                crespos. Definição e hidratação profunda.
+              </p>
+              <div class="service-card__price">
+                <span class="price__label">a partir de</span>
+                <span class="price__value">R$ 55</span>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Banner promoção novos clientes -->
+          <div class="services__promo reveal">
+            <div class="promo-badge">
+              <span class="promo-badge__percent">25%</span>
+              <div>
+                <strong>Para clientes novos</strong>
+                <span>Tempo limitado — apresente essa página</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ========================== GALERIA ========================== -->
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-eyebrow">Nosso portfólio</span>
+            <h2 class="section-title">Cada corte, <em>uma identidade</em></h2>
+            <p class="section-desc">
+              Do degradê ao curly — excelência em cada detalhe.
+            </p>
+          </div>
+
+          <div class="gallery__grid">
+            <div class="gallery__item gallery__item--tall reveal">
+              <div class="gallery__img" style="background-image: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80')"></div>
+              <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery__item reveal">
+              <div class="gallery__img" style="background-image: url('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80')"></div>
+              <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery__item reveal">
+              <div class="gallery__img" style="background-image: url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80')"></div>
+              <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery__item gallery__item--wide reveal">
+              <div class="gallery__img" style="background-image: url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=900&q=80')"></div>
+              <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery__item reveal">
+              <div class="gallery__img" style="background-image: url('https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80')"></div>
+              <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery__cta reveal">
+            <a
+              href="https://www.instagram.com/lopes.barberofc"
+              target="_blank"
+              rel="noopener"
+              class="btn btn--outline"
+            >
+              <i class="fab fa-instagram"></i> Ver mais no Instagram
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================== EQUIPE ========================== -->
+      <section class="section team" id="team">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-eyebrow">Quem faz acontecer</span>
+            <h2 class="section-title">Nossa <em>Equipe</em></h2>
+            <p class="section-desc">
+              Profissionais que vivem pelo que fazem.
+            </p>
+          </div>
+
+          <div class="team__grid">
+            <article class="team-card reveal">
+              <div class="team-card__photo">
+                <div class="team-card__img" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80')"></div>
+                <div class="team-card__social">
+                  <a href="https://www.instagram.com/lopes.barberofc" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="team-card__info">
+                <h3 class="team-card__name">Carlos Lopes</h3>
+                <span class="team-card__role">Fundador & Master Barber</span>
+                <p class="team-card__bio">
+                  +3 anos transformando estilos. Especialista em degradê, navalhado
+                  e coloração. Fundador da Lopes Barber.
+                </p>
+              </div>
+            </article>
+
+            <article class="team-card reveal">
+              <div class="team-card__photo">
+                <div class="team-card__img" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80')"></div>
+                <div class="team-card__social">
+                  <a href="#" aria-label="Instagram" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="team-card__info">
+                <h3 class="team-card__name">J.V. Souza</h3>
+                <span class="team-card__role">Barbeiro</span>
+                <p class="team-card__bio">
+                  Especialista em curly, cachos e cortes modernos.
+                  Referência em tratamentos capilares.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================== AVALIAÇÕES ========================== -->
+      <section class="section reviews" id="reviews">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-eyebrow">O que nossos clientes dizem</span>
+            <h2 class="section-title">Avaliações <em>Reais</em></h2>
+            <div class="reviews__rating-summary reveal">
+              <div class="stars-display">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="rating-text">5.0 de 5 — Google Reviews</span>
+            </div>
+          </div>
+
+          <div class="reviews__slider" id="reviews-slider">
+            <div class="reviews__track" id="reviews-track">
+
+              <div class="review-card">
+                <div class="review-card__stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <blockquote class="review-card__text">
+                  "O Carlos é excelente! Fui sem esperança com meu cabelo e saí
+                  completamente transformado. Autoestima lá em cima."
+                </blockquote>
+                <footer class="review-card__author">
+                  <div class="author__avatar">M</div>
+                  <div>
+                    <strong>Marcos Vinícius</strong>
+                    <span>Cliente fiel</span>
+                  </div>
+                </footer>
+              </div>
+
+              <div class="review-card">
+                <div class="review-card__stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <blockquote class="review-card__text">
+                  "Melhor degradê que já fiz. Ambiente top, atendimento de
+                  primeira e preço justo. Já virei cliente fixo!"
+                </blockquote>
+                <footer class="review-card__author">
+                  <div class="author__avatar">G</div>
+                  <div>
+                    <strong>Gabriel Souza</strong>
+                    <span>Novo cliente</span>
+                  </div>
+                </footer>
+              </div>
+
+              <div class="review-card">
+                <div class="review-card__stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <blockquote class="review-card__text">
+                  "Fiz a coloração azul e ficou incrível. Eles entenderam
+                  exatamente o que eu queria. Super recomendo!"
+                </blockquote>
+                <footer class="review-card__author">
+                  <div class="author__avatar">A</div>
+                  <div>
+                    <strong>Ana Carolina</strong>
+                    <span>Cliente de coloração</span>
+                  </div>
+                </footer>
+              </div>
+
+              <div class="review-card">
+                <div class="review-card__stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <blockquote class="review-card__text">
+                  "25% de desconto na primeira vez e ainda assim a qualidade
+                  foi absurda. Voltei sem desconto e continua valendo cada real."
+                </blockquote>
+                <footer class="review-card__author">
+                  <div class="author__avatar">R</div>
+                  <div>
+                    <strong>Rafael T.</strong>
+                    <span>Cliente fiel</span>
+                  </div>
+                </footer>
+              </div>
+
+              <div class="review-card">
+                <div class="review-card__stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <blockquote class="review-card__text">
+                  "Profissionalismo total. O J.V. manda muito nos cachos —
+                  nunca meu cabelo ficou tão definido. Nota 10!"
+                </blockquote>
+                <footer class="review-card__author">
+                  <div class="author__avatar">L</div>
+                  <div>
+                    <strong>Lucas Menezes</strong>
+                    <span>Cliente curly</span>
+                  </div>
+                </footer>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="reviews__controls reveal">
+            <button class="slider-btn" id="prev-btn" aria-label="Anterior">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slider-dots" id="slider-dots"></div>
+            <button class="slider-btn" id="next-btn" aria-label="Próximo">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================== LOCALIZAÇÃO ========================== -->
+      <section class="section location" id="location">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-eyebrow">Vem nos visitar</span>
+            <h2 class="section-title">Localização & <em>Horários</em></h2>
+          </div>
+
+          <div class="location__wrapper">
+            <div class="location__info reveal">
+
+              <div class="info-block">
+                <div class="info-block__icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h4>Endereço</h4>
+                  <p>Rua Cassiano dos Santos, 255</p>
+                </div>
+              </div>
+
+              <div class="info-block">
+                <div class="info-block__icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                  <h4>Horários</h4>
+                  <div class="schedule">
+                    <div class="schedule__row">
+                      <span>Segunda a Sexta</span>
+                      <span>09h – 20h</span>
+                    </div>
+                    <div class="schedule__row">
+                      <span>Sábado</span>
+                      <span>08h – 18h</span>
+                    </div>
+                    <div class="schedule__row schedule__row--closed">
+                      <span>Domingo</span>
+                      <span>Fechado</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-block">
+                <div class="info-block__icon">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div>
+                  <h4>Redes Sociais</h4>
+                  <p>
+                    <a href="https://www.instagram.com/lopes.barberofc" target="_blank" rel="noopener">
+                      @lopes.barberofc
+                    </a><br />
+                    <a href="https://bio.site/LopesBarber" target="_blank" rel="noopener">
+                      bio.site/LopesBarber
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <a
+                href="https://wa.me/5511999999999"
+                target="_blank"
+                rel="noopener"
+                class="btn btn--gold btn--lg btn--block"
+              >
+                <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+              </a>
+            </div>
+
+            <div class="location__map reveal">
+              <iframe
+                title="Localização Lopes Barber — Rua Cassiano dos Santos, 255"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975576850407!2d-46.65683048438!3d-23.564611784680624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sRua%20Cassiano%20dos%20Santos!5e0!3m2!1spt-BR!2sbr!4v1709876543210"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================== FOOTER ========================== -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="#hero" class="navbar__logo">
+            <span class="logo-icon"><i class="fas fa-cut"></i></span>
+            <span class="logo-text">Lopes <strong>Barber</strong></span>
+          </a>
+          <p>Especialista em cortes masculinos premium.<br />Transformando estilo e autoestima.</p>
+        </div>
+
+        <div class="footer__links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#team">Equipe</a></li>
+            <li><a href="#reviews">Avaliações</a></li>
+            <li><a href="#location">Localização</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <h4>Nos siga</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/lopes.barberofc" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-icon">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://bio.site/LopesBarber" target="_blank" rel="noopener" aria-label="Bio.site" class="social-icon">
+              <i class="fas fa-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="current-year"></span> Lopes Barber. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Botão flutuante WhatsApp -->
+    <a
+      href="https://wa.me/5511999999999"
+      target="_blank"
+      rel="noopener"
+      class="whatsapp-float"
+      aria-label="Agendar pelo WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
